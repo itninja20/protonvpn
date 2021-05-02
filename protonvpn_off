@@ -1,0 +1,5 @@
+#!/bin/bash
+
+protonvpn-cli logout
+#protonvpn-cli connect -f -p udp
+protonvpn-cli status

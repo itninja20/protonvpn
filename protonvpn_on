@@ -1,0 +1,6 @@
+#!/bin/bash
+
+protonvpn-cli login $1
+protonvpn-cli connect -f -p udp
+protonvpn-cli status
+
